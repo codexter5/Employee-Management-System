@@ -105,3 +105,81 @@ main {
     font-weight: bold;
     color: #2f4c73;
 }
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #4e6381;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid #c5d4e7;
+    border-radius: 6px;
+    background: #f8fbff;
+    font-size: 14px;
+    color: #364152;
+}
+
+button,
+input[type="submit"] {
+    margin-top: 12px;
+    padding: 10px 20px;
+    background: #8fa8c6;
+    color: #f8fbff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type="reset"] {
+    margin-top: 12px;
+    padding: 10px 20px;
+    background: #a8b8cb;
+    color: #f8fbff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+table, th, td {
+    border: 1px solid #c8d7e8;
+}
+
+th {
+    background: #d9e5f3;
+    color: #3e5472;
+    padding: 10px 8px;
+    text-align: left;
+    font-size: 13px;
+}
+
+td {
+    padding: 8px;
+    font-size: 13px;
+}
+
+tr:nth-child(even) td {
+    background: #f3f7fc;
+}
