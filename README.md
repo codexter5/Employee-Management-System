@@ -7,7 +7,13 @@ This project is a PHP-based Employee Management System organized into modules fo
 ```text
 Employee Management System/
 ├── admin/
-│   └── dashboard.php
+│   ├── add_employee.php
+│   ├── attendance.php
+│   ├── dashboard.php
+│   ├── delete_employee.php
+│   ├── edit_employee.php
+│   ├── employees.php
+│   └── leaves.php
 ├── assets/
 │   └── style.css
 ├── config/
@@ -30,6 +36,12 @@ Employee Management System/
 
 - **admin/**
   - `dashboard.php`: Admin dashboard page for management-related functions.
+  - `employees.php`: Displays list of all employees.
+  - `add_employee.php`: Form and logic to add a new employee.
+  - `edit_employee.php`: Form and logic to edit employee details.
+  - `delete_employee.php`: Handles employee deletion.
+  - `attendance.php`: Manages employee attendance records.
+  - `leaves.php`: Manages employee leave requests and records.
 
 - **assets/**
   - `style.css`: Main stylesheet used for UI styling across pages.
@@ -47,7 +59,7 @@ Employee Management System/
   - `db.sql`: Database schema and/or seed SQL for setting up the system database.
 
 - **uploads/**
-  - Image files: Stores uploaded/default avatar assets.
+  - Avatar images: `cute-cartoon-girl-avatar-black-hair-yellow-shir-vector-58404672.avif`, `smiling-business-cartoon-avatar-vector-58404732.avif`, `default.png`
   - `index.php`: Usually used to prevent direct directory listing.
 
 ## Notes
