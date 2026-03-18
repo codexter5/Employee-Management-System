@@ -11,10 +11,10 @@ if (isset($_GET["search"])) {
 }
 
 if ($search !== "") {
-    $sql = "SELECT * FROM employee WHERE id LIKE '%$search%' OR name LIKE '%$search%' OR email LIKE '%$search%' OR faculty LIKE '%$search%' ORDER BY id DESC";
+    $sql = "SELECT * FROM employee WHERE id LIKE '%$search%' OR name LIKE '%$search%' OR email LIKE '%$search%' OR faculty LIKE '%$search%' ORDER BY id ASC";
     $result = mysqli_query($conn, $sql);
 } else {
-    $sql = "SELECT * FROM employee ORDER BY id DESC";
+    $sql = "SELECT * FROM employee ORDER BY id ASC";
     $result = mysqli_query($conn, $sql);
 }
 
